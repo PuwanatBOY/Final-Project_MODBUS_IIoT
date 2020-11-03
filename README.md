@@ -6,18 +6,18 @@
 ### By Puwanat Torcheewee
  
 ****
-#### * Use Software
+#### Use Software
 ##### 1. Arduino IDE
 ##### 2. SoMachine Basic
 
 ****
-** #### Use Library for Arduino
+#### Use Library for Arduino
 ##### 1. ModbusMaster
 ##### Link : https://www.arduino.cc/reference/en/libraries/modbusmaster/
 ##### 2. Modbus TCP ESP8266/ESP32
 ##### Link : https://github.com/emelianov/modbus-esp8266
 
 ****
-#### *Mode working
+#### Mode working
 ##### 1. Mode setting (setting to use device)
 ##### 2. Mode running (Control device)
