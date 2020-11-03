@@ -1,15 +1,19 @@
 void SetupAP() {
-  delay(2000);
+  delay(1000);
   Serial.print("Setting AP (Access Point)…");
-  //WiFi.mode(WIFI_AP_STA);
-  //WiFi.softAPConfig(local_IP, gateway, subnet);
-  //Serial.println(WiFi.softAPConfig(local_IP, gateway, subnet) ? "Ready !!" : "Failed !");
-  //WiFi.softAP(ssidAP, passAP);
+  WiFi.mode(WIFI_OFF);
+  delay(200);
+  WiFi.mode(WIFI_AP);
   Serial.println(WiFi.softAP(ssidAP, passAP) ? "Ready !!" : "Failed !");
+  delay(200);
+  WiFi.softAPConfig(stationIP, gatewayIP, netMask);
+  delay(200);
   Serial.print("AP IP address: ");
   Serial.println(WiFi.softAPIP());
-
-  server.on("/", handleRoot);
+  printAPMode(WiFi.softAPIP());
+  
+  server.on("/", handleShow);
+  server.on("/config", handleRoot);
   server.on("/post", handleForm);
   server.onNotFound(handleNotFound);
   server.begin();
