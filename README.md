@@ -3,10 +3,10 @@
 ## (Protocol Converter between Modbus and IIoTs)
 
 ****
-### At. #### Suranaree University of Technology
-### By. #### Puwanat Torcheewee  B6004804
-### Major. #### Computer Engineering
-### Advisor. #### Wichai Srisurak
+### At. Suranaree University of Technology
+### By. Puwanat Torcheewee  B6004804
+### Major. Computer Engineering
+### Advisor. Wichai Srisurak
 
 ****
 ### Type
