@@ -21,3 +21,7 @@
 #### Mode working
 ##### 1. Mode setting (setting to use device)
 ##### 2. Mode running (Control device)
+
+****
+### Document
+#### Google Drive : https://drive.google.com/file/d/18LlJrm9SCsQbddBMEI62g8rECGXPglNM/view?usp=sharing
