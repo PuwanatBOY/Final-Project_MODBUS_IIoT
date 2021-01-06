@@ -1,10 +1,21 @@
-# Final Project - Hardware and Develops
+# -------------------------[Final Project]-------------------------
 ## การสร้างอุปกรณ์แปลงการสื่อสารระหว่างอุปกรณ์ Modbus กับ IIoTs 
 ## (Protocol Converter between Modbus and IIoTs)
 
 ****
-### By Puwanat Torcheewee
- 
+### At
+#### Suranaree University of Technology
+### By
+#### Puwanat Torcheewee  B6004804
+### Major
+#### Computer Engineering
+### Advisor
+#### Wichai Srisurak
+
+****
+### Type
+#### Hardware and Develops
+
 ****
 #### Use Software
 ##### 1. Arduino IDE
